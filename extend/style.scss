@@ -1,0 +1,27 @@
+// Sass - Extend
+
+.border {
+    border-radius: 10px 0px;
+    -moz-border-radius: 10px 0px;
+    -webkit-border-radius: 10px 0px;
+    -o-border-radius: 10px 0px;
+}
+
+.background {
+    background: -moz-linear-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
+    background: -webkit-gradient(linear, 180de, color-stop(0, FFFFFF));
+    background: -webkit-linear-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
+    background: -o-linear-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
+    background: -ms-linear-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
+    background: linear-gradient(180deg, #FFFFFF 0, #D1D6DB 100%);
+}
+
+.main {
+    width: 500px;
+    height: 200px;
+    @extend .background;
+}
+
+.main2 {
+    @extend .border;
+}
