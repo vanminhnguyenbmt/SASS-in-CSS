@@ -1,0 +1,25 @@
+// Sass - Variables
+$color: orange;
+$color2: red;
+.main {
+    color: $color;
+    width: 100%;
+    .main-content {
+        background-color: $color2;
+        color: #000000;
+        a {
+            font-weight: bold;
+            &:hover {
+                color: $color2;
+            }
+        }
+    }
+    .main-info {
+        font: {
+            family: Arial;
+            size: 30px;
+            weight: bold;
+        }
+        color: $color;
+    }
+}

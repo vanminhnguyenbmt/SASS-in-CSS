@@ -1,0 +1,25 @@
+.main {
+  color: orange;
+  width: 100%;
+}
+
+.main .main-content {
+  background-color: red;
+  color: #000000;
+}
+
+.main .main-content a {
+  font-weight: bold;
+}
+
+.main .main-content a:hover {
+  color: red;
+}
+
+.main .main-info {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  color: orange;
+}
+/*# sourceMappingURL=style.css.map */
