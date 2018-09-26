@@ -1,0 +1,24 @@
+.main {
+  color: #00ff00;
+  width: 100%;
+}
+
+.main .main-content {
+  background-color: #ff0000;
+  color: #000000;
+}
+
+.main .main-content a {
+  font-weight: bold;
+}
+
+.main .main-content a:hover {
+  color: red;
+}
+
+.main .main-info {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
