@@ -1,0 +1,15 @@
+// Sass - @if
+
+$dieukien: mauxanh;
+
+.main {
+    @if $dieukien == maudo {
+        background: red;
+    }
+    @else if $dieukien == mauxanh {
+        background: blue;
+    }
+    @else {
+        background: #ccc;
+    }
+}
