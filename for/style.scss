@@ -1,0 +1,7 @@
+ // Sass - @for
+
+ @for $i from 1 through 7 {
+     .item-#{$i} {
+         width: #{$i}em;
+     }
+ }
