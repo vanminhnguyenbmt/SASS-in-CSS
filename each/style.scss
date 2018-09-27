@@ -1,0 +1,29 @@
+// Sass - @each
+
+// .item1 {
+//     background: url("/image/item1.png");
+//     color: red;
+// }
+
+// .item2 {
+//     background: url("/images/item2.png");
+//     color: blue;
+// }
+
+// .item3 {
+//     background: url("/images/item3.png");
+//     color: black;
+// }
+
+// @each $var in (item1, item2, item3) {
+//     .#{$var} {
+//         background: url("/images/#{$var}.png");
+//     }
+// }
+
+@each $var, $color in (item1, red), (item2, blue), (item3, black) {
+    .#{$var} {
+        background: url("/images/#{$var}.png");
+        color: $color;
+    }
+}
