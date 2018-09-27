@@ -1,0 +1,35 @@
+.menu {
+  width: 1200px;
+  margin: 0 auto;
+  background: blue;
+}
+
+.menu ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.menu ul li {
+  float: left;
+  padding: 5px 80px;
+}
+
+.menu ul li a {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  color: orange;
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
